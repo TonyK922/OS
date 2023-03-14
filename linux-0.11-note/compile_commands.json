@@ -1,0 +1,1045 @@
+[
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "super.o",
+            "super.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "super.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "sched.o",
+            "sched.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "sched.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "fork.o",
+            "fork.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "fork.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "hd.o",
+            "hd.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\blk_drv",
+        "file": "hd.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-m32",
+            "-g",
+            "-I./include",
+            "-traditional",
+            "boot/head.s"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\",
+        "file": "boot\\head.s"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "tty_io.o",
+            "tty_io.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\chr_drv",
+        "file": "tty_io.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "tty_ioctl.o",
+            "tty_ioctl.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\chr_drv",
+        "file": "tty_ioctl.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "file_dev.o",
+            "file_dev.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "file_dev.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "panic.o",
+            "panic.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "panic.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "char_dev.o",
+            "char_dev.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "char_dev.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "pipe.o",
+            "pipe.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "pipe.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "malloc.o",
+            "malloc.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "malloc.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "string.o",
+            "string.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "string.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "vsprintf.o",
+            "vsprintf.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "vsprintf.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "signal.o",
+            "signal.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "signal.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "setsid.o",
+            "setsid.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "setsid.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "close.o",
+            "close.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "close.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "mktime.o",
+            "mktime.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "mktime.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "block_dev.o",
+            "block_dev.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "block_dev.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "open.o",
+            "open.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "open.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "floppy.o",
+            "floppy.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\blk_drv",
+        "file": "floppy.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "file_table.o",
+            "file_table.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "file_table.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "traps.o",
+            "traps.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "traps.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O2",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-Iinclude",
+            "-o",
+            "init/main.o",
+            "init/main.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note",
+        "file": "init\\main.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "ll_rw_blk.o",
+            "ll_rw_blk.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel\\blk_drv",
+        "file": "ll_rw_blk.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "exit.o",
+            "exit.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "exit.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "bitmap.o",
+            "bitmap.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "bitmap.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "memory.o",
+            "memory.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\mm",
+        "file": "memory.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "ramdisk.o",
+            "ramdisk.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel\\blk_drv",
+        "file": "ramdisk.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "math_emulate.o",
+            "math_emulate.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel\\math",
+        "file": "math_emulate.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "wait.o",
+            "wait.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "wait.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "inode.o",
+            "inode.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "inode.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "execve.o",
+            "execve.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "execve.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "fcntl.o",
+            "fcntl.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "fcntl.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "errno.o",
+            "errno.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "errno.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "console.o",
+            "console.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel\\chr_drv",
+        "file": "console.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "stat.o",
+            "stat.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "stat.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "namei.o",
+            "namei.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "namei.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "truncate.o",
+            "truncate.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "truncate.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "printk.o",
+            "printk.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "printk.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../../include",
+            "-o",
+            "serial.o",
+            "serial.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel\\chr_drv",
+        "file": "serial.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "write.o",
+            "write.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "write.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "sys.o",
+            "sys.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\kernel",
+        "file": "sys.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "ctype.o",
+            "ctype.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "ctype.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "read_write.o",
+            "read_write.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "read_write.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O2",
+            "-fomit-frame-pointer",
+            "-o",
+            "tools/build",
+            "tools/build.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\",
+        "file": "tools\\build.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "exec.o",
+            "exec.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "exec.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "_exit.o",
+            "_exit.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "_exit.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "buffer.o",
+            "buffer.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "buffer.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-O",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-finline-functions",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "dup.o",
+            "dup.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\lib",
+        "file": "dup.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "ioctl.o",
+            "ioctl.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "ioctl.c"
+    },
+    {
+        "arguments": [
+            "gcc-3.4",
+            "-c",
+            "-march=i386",
+            "-m32",
+            "-g",
+            "-Wall",
+            "-fstrength-reduce",
+            "-fomit-frame-pointer",
+            "-nostdinc",
+            "-I../include",
+            "-o",
+            "open.o",
+            "open.c"
+        ],
+        "directory": "G:\\CS\\OS\\linux-0.11-note\\fs",
+        "file": "open.c"
+    }
+]

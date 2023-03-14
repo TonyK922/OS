@@ -1,3 +1,3 @@
-### OS Knowledge note
+### OS & Linux kernel
 
 #### store in github for backup
